@@ -23,7 +23,7 @@ body:
     id: site_and_problem
     attributes:
       label: 문제 사이트와 번호
-      description: 문제 사이트와 번호를 작성하세요. (예: 백준 14467)
+      description: "문제 사이트와 번호를 작성하세요. (예: 백준 14467)"
       placeholder: 문제 사이트와 번호를 입력하세요.
     validations:
       required: true
@@ -43,10 +43,10 @@ body:
       placeholder: 풀이 아이디어를 입력하세요.
 
   - type: dropdown
-    id: priority
+    id: difficulty
     attributes:
-      label: 우선순위
-      description: 이 문제의 우선순위를 선택하세요.
+      label: 난이도
+      description: 이 문제의 난이도를 선택하세요.
       options:
         - 높음
         - 중간

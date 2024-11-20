@@ -39,10 +39,10 @@ body:
       placeholder: 풀이 아이디어를 입력하세요.
 
   - type: dropdown
-    id: priority
+    id: difficulty
     attributes:
-      label: 우선순위
-      description: 이 문제의 우선순위를 선택하세요.
+      label: 난이도
+      description: 이 문제의 난이도를 선택하세요.
       options:
         - 높음
         - 중간
