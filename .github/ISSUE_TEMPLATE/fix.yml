@@ -1,0 +1,46 @@
+name: 문제 풀이 수정
+description: 문제 풀이 수정 작업을 위한 이슈 템플릿입니다.
+title: "[Fix] 문제 사이트 | 알고리즘 주제 | 문제 번호 | 문제 이름과 내용"
+labels:
+  - fix
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐞 문제 풀이 수정
+        아래 내용을 작성해주세요.
+
+  - type: input
+    id: problem_target
+    attributes:
+      label: 수정할 문제
+      description: 수정이 필요한 문제 사이트와 번호를 작성하세요. (예: 백준 14467)
+      placeholder: 수정 대상 문제
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix_description
+    attributes:
+      label: 수정 내용
+      description: 어떤 부분을 수정할 예정인지 작성하세요.
+      placeholder: 수정할 내용을 작성하세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix_reason
+    attributes:
+      label: 수정 이유
+      description: 문제 풀이에서 수정이 필요한 이유를 간단히 작성하세요.
+      placeholder: 수정 이유를 작성하세요.
+
+  - type: dropdown
+    id: fix_priority
+    attributes:
+      label: 우선순위
+      description: 이 수정 작업의 우선순위를 선택하세요.
+      options:
+        - 높음
+        - 중간
+        - 낮음
