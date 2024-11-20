@@ -1,0 +1,27 @@
+name: 문서 작업
+description: 문서 관련 작업 이슈 템플릿입니다.
+title: "[Docs] 문서 내용"
+labels:
+  - docs
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 📄 문서 작업 내용
+        아래 내용을 작성해주세요.
+
+  - type: input
+    id: doc_target
+    attributes:
+      label: 문서 대상
+      description: 작업할 문서의 이름이나 위치를 작성하세요.
+      placeholder: 대상 문서 이름
+    validations:
+      required: true
+
+  - type: textarea
+    id: doc_content
+    attributes:
+      label: 문서 내용
+      description: 추가하거나 수정할 문서 내용을 간단히 작성하세요.
+      placeholder: 내용 작성

@@ -1,0 +1,34 @@
+name: 설정 작업
+description: 설정 작업 및 수정을 위한 이슈 템플릿입니다.
+title: "[Settings] 설정 작업 내용"
+labels:
+  - settings
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## ⚙️ 설정 작업
+        아래 내용을 작성해주세요.
+
+  - type: input
+    id: setting_target
+    attributes:
+      label: 작업 대상
+      description: 수정하거나 추가할 설정 항목을 작성하세요.
+      placeholder: 대상 설정 항목
+    validations:
+      required: true
+
+  - type: textarea
+    id: setting_details
+    attributes:
+      label: 작업 내용
+      description: 작업의 상세 내용을 작성하세요.
+      placeholder: 내용 작성
+
+  - type: textarea
+    id: setting_reason
+    attributes:
+      label: 작업 이유
+      description: 해당 설정 작업의 필요성을 작성하세요.
+      placeholder: 이유 작성
