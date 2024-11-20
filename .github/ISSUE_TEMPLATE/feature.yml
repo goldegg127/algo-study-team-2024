@@ -14,7 +14,7 @@ body:
     id: algorithm_topic
     attributes:
       label: 알고리즘 주제
-      description: 어떤 알고리즘 주제와 관련된 문제인지 입력하세요. (예: 구현, DP, BFS 등)
+      description: "어떤 알고리즘 주제와 관련된 문제인지 입력하세요. (예: 구현, DP, BFS 등)"
       placeholder: 알고리즘 주제를 입력하세요.
     validations:
       required: true

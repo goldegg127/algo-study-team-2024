@@ -14,7 +14,7 @@ body:
     id: problem_target
     attributes:
       label: 수정할 문제
-      description: 수정이 필요한 문제 사이트와 번호를 작성하세요. (예: 백준 14467)
+      description: "수정이 필요한 문제 사이트와 번호를 작성하세요. (예: 백준 14467)"
       placeholder: 수정 대상 문제
     validations:
       required: true

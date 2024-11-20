@@ -14,14 +14,14 @@ body:
     id: algorithm_topic
     attributes:
       label: 알고리즘 주제
-      description: 어떤 알고리즘 주제와 관련된 문제인지 입력하세요. (예: 구현, DP, BFS 등)
+      description: "어떤 알고리즘 주제와 관련된 문제인지 입력하세요. (예: 구현, DP, BFS 등)"
       placeholder: 알고리즘 주제를 입력하세요.
 
   - type: input
     id: site_and_problem
     attributes:
       label: 문제 사이트와 번호
-      description: 문제 사이트와 번호를 작성하세요. (예: 백준 14467)
+      description: "문제 사이트와 번호를 작성하세요. (예: 백준 14467)"
       placeholder: 문제 사이트와 번호를 입력하세요.
 
   - type: textarea
